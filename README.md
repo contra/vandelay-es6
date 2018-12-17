@@ -16,5 +16,5 @@ npm install vandelay-es6 --save
 [npm-url]: https://npmjs.org/package/vandelay-es6
 [npm-image]: http://img.shields.io/npm/v/vandelay-es6.svg
 
-[travis-url]: https://travis-ci.org/contra/vandelay-es6
-[travis-image]: https://travis-ci.org/contra/vandelay-es6.png?branch=master
+[travis-url]: https://travis-ci.org/staeco/vandelay-es6
+[travis-image]: https://travis-ci.org/staeco/vandelay-es6.png?branch=master
