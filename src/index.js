@@ -1,12 +1,12 @@
 import { transform } from '@babel/core'
-import { babel } from '../.babelrc'
+import babelConfig from '@stae/babel-node'
 
 const babelOptions = {
   babelrc: false,
   ast: false,
   sourceMaps: 'inline',
   filename: 'user-transform.js',
-  ...babel
+  ...babelConfig
 }
 
 export default (code) =>

@@ -1,6 +1,6 @@
 {
   "name": "vandelay-es6",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Babel ES6 compiler for vandelay",
   "main": "dist/index.js",
   "keywords": [],
@@ -17,8 +17,7 @@
   },
   "homepage": "https://github.com/staeco/vandelay-es6#readme",
   "files": [
-    "dist",
-    ".babelrc.js"
+    "dist"
   ],
   "scripts": {
     "preversion": "npm run clean && npm run build",
@@ -36,6 +35,7 @@
     "should": "^13.0.0"
   },
   "dependencies": {
-    "@stae/babel-node": "^0.1.2"
+    "@stae/babel-node": "^0.1.2",
+    "core-js": "3.0.0"
   }
 }

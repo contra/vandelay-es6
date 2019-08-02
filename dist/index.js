@@ -5,7 +5,9 @@ exports.default = void 0;
 
 var _core = require("@babel/core");
 
-var _babelrc = require("../.babelrc");
+var _babelNode = _interopRequireDefault(require("@stae/babel-node"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -18,7 +20,7 @@ const babelOptions = _objectSpread({
   ast: false,
   sourceMaps: 'inline',
   filename: 'user-transform.js'
-}, _babelrc.babel);
+}, _babelNode.default);
 
 var _default = code => (0, _core.transform)(code, babelOptions).code;
 
