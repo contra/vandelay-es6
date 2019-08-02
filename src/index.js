@@ -1,5 +1,5 @@
-import { transform } from 'babel-core'
-import { babel } from '../package'
+import { transform } from '@babel/core'
+import { babel } from '../.babelrc'
 
 const babelOptions = {
   babelrc: false,
