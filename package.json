@@ -1,6 +1,6 @@
 {
   "name": "vandelay-es6",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Babel ES6 compiler for vandelay",
   "main": "dist/index.js",
   "keywords": [],

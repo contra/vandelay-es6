@@ -4,6 +4,7 @@ import babelConfig from '../.babelrc.js'
 const babelOptions = {
   babelrc: false,
   ast: false,
+  highlightCode: false,
   sourceMaps: 'inline',
   filename: 'user-transform.js',
   ...babelConfig

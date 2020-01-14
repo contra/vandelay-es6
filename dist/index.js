@@ -18,6 +18,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 const babelOptions = _objectSpread({
   babelrc: false,
   ast: false,
+  highlightCode: false,
   sourceMaps: 'inline',
   filename: 'user-transform.js'
 }, _babelrc.default);
