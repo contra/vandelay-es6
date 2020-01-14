@@ -1,5 +1,5 @@
 import { transform } from '@babel/core'
-import babelConfig from '@stae/babel-node'
+import babelConfig from '../.babelrc.js'
 
 const babelOptions = {
   babelrc: false,
