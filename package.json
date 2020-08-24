@@ -1,6 +1,6 @@
 {
   "name": "vandelay-es6",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Babel ES6 compiler for vandelay",
   "main": "dist/index.js",
   "keywords": [],
@@ -24,8 +24,8 @@
     "preversion": "npm run clean && npm run build",
     "build": "babel src --out-dir dist",
     "clean": "rimraf dist",
-    "lint": "eslint src",
-    "test": "npm run-script lint && mocha --require @babel/register --recursive --reporter spec"
+    "lint": "eslint src test --fix",
+    "test": "mocha --require @babel/register --recursive --reporter spec"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
